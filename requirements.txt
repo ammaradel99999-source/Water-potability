@@ -1,0 +1,9 @@
+# النسخ دي هي اللي اتجرّب بيها الموديل. scikit-learn لازم تبقى 1.6.1 بالظبط لأن الـ pkl اتحفظ بيها.
+# gradio مش محتاج يتكتب هنا على Hugging Face، لأنه بيتثبّت من sdk_version في README.md
+# (لو هتشغّل محلياً: pip install gradio==6.31.0)
+scikit-learn==1.6.1
+imbalanced-learn==0.14.2
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+joblib==1.6.0
